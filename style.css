@@ -1,0 +1,65 @@
+body{
+ 
+    background-color: #222;
+    color: #fff;
+}
+
+
+h1 {
+    color: black;
+    background-color: #ed728b;
+    font-size: 64px;
+    /* color definisce il clore del testo
+    background-color definisce il colore dello sfondo
+    font-size definisce la grandezza dell h1 */
+
+    /* CODICI DI COLORE
+
+    RR|GG|BB    ac(alpha channel)
+    00|00|00    00
+    ..|..|..    ..
+    FF|FF|FF    FF
+     */
+
+     /* CODICI DI COLORE RGBA  
+     rgb(0,0,0,1) significa Nero solido;
+     rgb(255,255,00.5) significa Bianco semitrasparente; */
+
+}
+
+h2{
+    font-size: 32px;
+}
+
+p {
+    color: rgb(23, 145, 202);
+}
+/* .intro si riferisce alle classi con il nome intro dell'html */
+.intro {
+    color: rgb(121, 199, 121);
+    background-color: black;
+}
+.main-header {
+    text-align: center;
+    margin: 40px;
+    
+}
+.main-footer{
+    font-weight: bold;
+}
+
+.footer-info{
+    color: yellow;
+    font-weight: normal;
+}
+
+/* solo gli elemento con classe email all'interno della classe footer */
+.footer-info .email{
+    color: purple;
+    
+}
+.email{
+    color: grey;
+    font-weight: bold;
+    font-size: 23px;
+}

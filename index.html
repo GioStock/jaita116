@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it"><!--lingua in inglese con en e it in italiano-->
+
+<head> <!--testa della pagina html head-->
+    <meta charset="UTF-8">
+    <!--meta tag per servono per spiegare alcune cose al browser e a quelle tecnologie che vanno a visualizzare quella pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--venga letto correttamente da tutti i dispositivi viewport-->
+    <title>La mia Prima Pagina Web</title>
+
+    <meta name="description" content="La prima pagina web del corso jaita116">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="main-header intro">
+        il tag header indica l'intestazione della pagina, dell'articolo o del testo.
+
+        <nav><!--nav semantico per menu di navigazione-->
+            <ul> <!--elenco puntato -->
+                <!--dentro gli elementi ul e ol inseriamo i list item li-->
+
+                <li>voce 1</li>
+                <li>voce 2</li>
+                <li>voce 3</li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Titolo di Primo Livello-->
+    <h1>la Mia Prima Pagina</h1>
+    <!-- il paragrafo è un elemento block(va a capo)
+    l'elemento strong è un inline(resta in linea) -->
+    <p class="intro">
+        questo è un <strong>paragrafo</strong>. il tag P che delimita dei <strong>blocchi</strong> di
+        <strong>testo</strong> che verranno visualizzati come paragrafi.
+    </p>
+    <p>questo è un secondo paragrafo. <em>Visto che sta in un tag p</em> <strong class="intro">separato</strong> il
+        browser lo
+        visualizza un piccolo spaziosalta una riga</p>
+
+    <h2 class="intro">Titolo di secondo livello</h2>
+    <!-- nei link l'attributo href definisce la destinazione, mentre il contenuto individua l'elemento cliccabile -->
+    <p>Questo è un paragrafo. elemento blocco. questo è un link: <a href="https://www.google.it" target="_blank">ciao
+            sono google</a> </p>
+    <!-- l'attributo target definisce dove aprire il link. se non valorizzato lo apre nella stessa tab/finestra. _blank serve per aprirlo in una nuova finestra-->
+    <img src="VirtuNet Logo.jpg" alt="questa è l'immagine di un logo creato con Canva!">
+    <!-- img serve per inserire un immagine, src dove lo deve prelevare ma deve essere sempre all'interno della cartella e alt è la descrizione. -->
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit autem officiis obcaecati tempore <span class="intro">animi</span> 
+            consectetur ullam asperiores totam libero, excepturi nihil nam quia quibusdam consequatur? Atque eveniet
+            nesciunt fugit sed.</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora iusto velit quasi, nam amet et, commodi
+            <span class="email">quos asperiores nemo id explicabo voluptatibus mollitia molestias at sit </span>animi quibusdam voluptatem rerum.
+        </p>
+    </div>
+
+    <article>
+        nidificare il corpo di un articolo
+    </article>
+    <ol>
+        <!-- lista numerata ol -->
+        <li>primo elemento</li>
+        <li>secondo elemento</li>
+        <li>terzo elemento</li>
+        <li>quarto elemento</li>
+
+
+    </ol>
+
+    <footer class="main-footer">
+        informazioni <span>generali</span> sulla pagina che stanno di solito a pie di pagina(a fine pagina)
+       <div class="footer-info">indirizzo, <span class="email">telefono</span>
+       </div>
+    </footer>
+    <!--tag semantici: header, article e footer-->
+
+</body>
+
+</html>
