@@ -1,6 +1,9 @@
 
 body{
-    background-color: rgba(0, 0, 0, 0.898);
+    
+    background-image:linear-gradient(to bottom,
+    #ffffff82,#2603034f),url(https://www.scienzainrete.it/files/styles/molto_grande/public/Stelle.jpeg?itok=hhbuRpdI);
+
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
